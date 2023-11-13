@@ -202,7 +202,7 @@ def AES_One_Round(state, rkey): # AES의 한 라운드 연산을 하는 함수
     output_state_4 = AddRoundKey(output_state_3, rkey)
  
     return output_state_4
- w
+
 # AES 10 라운드 암호화 함수
 def AES_128_Encryption(plaintext, key):
     round_key = key_schedule_Enc(key)

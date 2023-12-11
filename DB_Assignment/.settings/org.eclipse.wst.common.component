@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="DB_Assignment">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/lib/mariadb-connector-j-3.3.1"/>
+                
+        <property name="context-root" value="DB_Assignment"/>
+                
+        <property name="java-output-path" value="/DB_Assignment/build/classes"/>
+            
+    </wb-module>
+    
+</project-modules>

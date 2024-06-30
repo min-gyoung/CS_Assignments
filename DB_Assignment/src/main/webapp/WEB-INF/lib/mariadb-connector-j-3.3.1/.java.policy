@@ -1,4 +1,0 @@
-grant {
-permission java.sql.SQLPermission "callAbort";
-permission java.sql.SQLPermission "setNetworkTimeout";
-};
